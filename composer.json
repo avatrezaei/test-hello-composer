@@ -1,0 +1,13 @@
+{
+    "name": "98991/test-hello-composer",
+    "autoload": {
+        "psr-4": {
+            "98991\\TestHelloComposer\\": "src/"
+        }
+    },
+    "require": {
+        "avatrezaei/hello-composer": "dev-main"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

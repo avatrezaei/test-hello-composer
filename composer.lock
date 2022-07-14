@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2d4717bc60a3822c8583c736d05eb44e",
+    "packages": [
+        {
+            "name": "avatrezaei/hello-composer",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/avatrezaei/hello-composer.git",
+                "reference": "5f72818a0b934dc261c03054d0a42b64abac319a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/avatrezaei/hello-composer/zipball/5f72818a0b934dc261c03054d0a42b64abac319a",
+                "reference": "5f72818a0b934dc261c03054d0a42b64abac319a",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "avatrezaei\\HelloComposer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "avatrezaei",
+                    "email": "avatrezaei88@gmail.com"
+                }
+            ],
+            "description": "A simple hello world composer package",
+            "support": {
+                "issues": "https://github.com/avatrezaei/hello-composer/issues",
+                "source": "https://github.com/avatrezaei/hello-composer/tree/version_1.0.0"
+            },
+            "time": "2022-07-14T18:52:06+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "avatrezaei/hello-composer": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
